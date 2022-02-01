@@ -1,0 +1,12 @@
+body {
+    font: 1em sans-serif;
+}
+
+th, td {
+    border: 1px solid #000;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
