@@ -1,4 +1,4 @@
-# intro-web-dev-lasalle-w21
+# Intro to Web Development, Winter 2022
 
 Code samples from Introduction to Web Development class, taken at LaSalle College during Winter 2022.
 
