@@ -1,0 +1,32 @@
+/* Basic CSS Syntax -> SELECTOR { STYLE } */
+
+/* Syntax to style HTML tag */
+/* Use just the tag */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: blueviolet;
+}
+
+p {
+	color: royalblue;
+    text-align: center;
+}
+
+/* Syntax to style a class */
+/* Use a dot (.) */
+
+.main {
+	padding: 50px;
+}
+
+/* Syntax to style an ID */
+/* Use a pound sign (#) */
+
+#contactLink {
+	font-weight: bold;
+	color: orangered;
+}
