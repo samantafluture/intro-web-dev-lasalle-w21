@@ -1,0 +1,27 @@
+h1 {
+	color: blue;
+}
+
+p {
+	color: gray;
+}
+
+.main {
+	border-style: solid;
+	border-color: green;
+	border-width: 5px;
+	padding: 8px;
+}
+
+.main p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main h1 {
+	color: purple;
+}
+
+/* it will be red since it's more specific */
+#mainHeading {
+	color: #ff0000;
+}
