@@ -28,6 +28,16 @@ a {
 	border: none;
 }
 
+.button > input {
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+	padding: 0px;
+	font-size: 16px;
+}
+
 .button:hover {
 	background-color: #712ca3	;
 }
