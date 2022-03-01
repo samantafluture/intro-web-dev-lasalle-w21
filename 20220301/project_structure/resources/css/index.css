@@ -1,0 +1,56 @@
+/* resets */
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+img {
+	max-width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+.navbar {
+    background-color: rgb(39, 39, 109);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    border: none;
+    z-index: 1;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.navbar li:hover {
+    background-color: rgb(185, 94, 9);
+}
+
+.banner {
+	background-color: rgba(199, 216, 235, 0.801);
+	color: rgb(39, 39, 109);
+	text-align: center;
+	padding: 10px;
+    margin-top: 30px;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+}
