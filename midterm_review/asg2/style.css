@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    background-color: darkgray;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+}
+
+.btn:hover {
+    background-color: purple;
+}
+
+.mainBox {
+    padding-top: 30px;
+}
+
+.mainText {
+    float: left;
+    width: 60%;
+}
+
+.highlightText {
+    float: right;
+    width: 40%;
+    background-color: lightgray;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}

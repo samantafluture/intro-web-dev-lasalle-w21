@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 15px;
+	margin: 0;
+}
+
+.navbar li:hover {
+    background-color: plum;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.banner {
+    padding: 50px 10px 20px;
+    text-align: center;
+    background-color: azure;
+    margin: 0;
+}
+
+.banner img {
+    max-width: 300px;
+}
+
+.banner h1, .banner h3 {
+    text-transform: uppercase;
+}
