@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    color: saddlebrown;
+}
+
+.searchForm {
+    text-align: center;
+}
+
+.searchForm label, .searchForm input {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.btnSearch {
+    background-color: #842c18;
+    color: black;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}

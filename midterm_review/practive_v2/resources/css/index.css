@@ -1,0 +1,90 @@
+/* resets */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, h1, h2, p, img, li, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: dimgray;
+    position: fixed;
+    left: 0;
+    top: 15px;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 12px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+/* banner area */
+
+.banner {
+    padding: 80px 0 20px;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+}
+
+.banner img {
+    margin: 20px;
+}
+
+.banner p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.bannerBtn {
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+
+/* newsletter area */
+
+.newsletter {
+    padding: 20px 25px;
+}
+
+.newsletter h2 {
+    color: blue;
+}
+
+.newsletter p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.btnNewsletter {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+/* resets */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, img, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #842c18;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    font-size: 18px;
+}
+
+/* main */
+
+.main {
+    padding-top: 45px;
+}
+
+.main h1 {
+    background-color: darkgray;
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px;
+    font-size: 70px;
+}
+
+.main img {
+    width: 82%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+.textBox {
+    background-color: #7d6b62;
+    color: black;
+    padding: 15px;
+    width: 18%;
+    float: right;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.textBox p {
+    text-align: left;
+}
+
+.btnMain {
+    border: none;
+    border-radius: 10px;
+    background-color: darkgray;
+    color: whitesmoke;
+    padding: 15px 30px;
+    margin: 20px 0 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnMain:hover {
+    background-color: #842c18;
+    color: black;
+}
